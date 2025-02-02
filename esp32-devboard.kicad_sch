@@ -1,0 +1,170 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0204cec0-d71e-48a7-8736-ccb0d3e9b02c")
+	(paper "A4")
+	(title_block
+		(title "ESP32 Dev Board")
+		(date "2025-02-01")
+		(rev "v1.0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 21.59 22.86)
+		(size 29.21 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "800114ef-aa85-4b1c-8a44-880992c7295f")
+		(property "Sheetname" "ESP32"
+			(at 21.59 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32.kicad_sch"
+			(at 21.59 33.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32-devboard"
+				(path "/0204cec0-d71e-48a7-8736-ccb0d3e9b02c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 40.64)
+		(size 29.21 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "870ae876-04fa-4239-8bda-f54913426ab2")
+		(property "Sheetname" "USB"
+			(at 21.59 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 21.59 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32-devboard"
+				(path "/0204cec0-d71e-48a7-8736-ccb0d3e9b02c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 58.42)
+		(size 29.21 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bacb3f46-de5d-435f-80be-a3240178eb39")
+		(property "Sheetname" "Power"
+			(at 21.59 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 21.59 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32-devboard"
+				(path "/0204cec0-d71e-48a7-8736-ccb0d3e9b02c"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 76.2)
+		(size 29.21 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d1e7b685-9c83-4c15-8db3-0beed5698ce7")
+		(property "Sheetname" "Devices"
+			(at 21.59 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Devices.kicad_sch"
+			(at 21.59 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32-devboard"
+				(path "/0204cec0-d71e-48a7-8736-ccb0d3e9b02c"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
