@@ -10,9 +10,48 @@
 		(rev "v1.0")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 88.9 35.56) (xy 96.52 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "469af19f-370a-4489-9885-792ae1481b2b")
+	)
+	(wire
+		(pts
+			(xy 88.9 31.75) (xy 96.52 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd9345f5-51a4-45c9-8a9f-eb1c38a658e5")
+	)
+	(text_box "here be dragons"
+		(exclude_from_sim no)
+		(at 139.7 30.48 0)
+		(size 33.02 27.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ec5af6f9-5bde-43db-805b-a2faa5851058")
+	)
 	(sheet
-		(at 21.59 22.86)
-		(size 29.21 10.16)
+		(at 59.69 25.4)
+		(size 29.21 35.56)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -23,7 +62,7 @@
 		)
 		(uuid "800114ef-aa85-4b1c-8a44-880992c7295f")
 		(property "Sheetname" "ESP32"
-			(at 21.59 22.1484 0)
+			(at 59.69 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,13 +71,33 @@
 			)
 		)
 		(property "Sheetfile" "ESP32.kicad_sch"
-			(at 21.59 33.6046 0)
+			(at 59.69 61.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 88.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "451308f3-1dcd-41c3-ba84-b5ec51696128")
+		)
+		(pin "USB_D-" bidirectional
+			(at 88.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ed486fd3-fbc4-4e8e-88fc-3cf399509fbd")
 		)
 		(instances
 			(project "esp32-devboard"
@@ -49,8 +108,8 @@
 		)
 	)
 	(sheet
-		(at 21.59 40.64)
-		(size 29.21 10.16)
+		(at 96.52 25.4)
+		(size 29.21 17.78)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -61,7 +120,7 @@
 		)
 		(uuid "870ae876-04fa-4239-8bda-f54913426ab2")
 		(property "Sheetname" "USB"
-			(at 21.59 39.9284 0)
+			(at 96.52 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70,13 +129,43 @@
 			)
 		)
 		(property "Sheetfile" "USB.kicad_sch"
-			(at 21.59 51.3846 0)
+			(at 96.52 43.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "+5V_USB" output
+			(at 121.92 43.18 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a03f8c91-1d57-465b-ae9f-5eb2c97bf131")
+		)
+		(pin "USB_D-" bidirectional
+			(at 96.52 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8be6b125-01bc-4a35-b348-546e001f6a75")
+		)
+		(pin "USB_D+" bidirectional
+			(at 96.52 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1db94618-19c7-4c5d-a26a-e33e17c04c6e")
 		)
 		(instances
 			(project "esp32-devboard"
@@ -87,7 +176,7 @@
 		)
 	)
 	(sheet
-		(at 21.59 58.42)
+		(at 96.52 50.8)
 		(size 29.21 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -99,7 +188,7 @@
 		)
 		(uuid "bacb3f46-de5d-435f-80be-a3240178eb39")
 		(property "Sheetname" "Power"
-			(at 21.59 57.7084 0)
+			(at 96.52 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -108,7 +197,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 21.59 69.1646 0)
+			(at 96.52 61.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -125,8 +214,8 @@
 		)
 	)
 	(sheet
-		(at 21.59 76.2)
-		(size 29.21 10.16)
+		(at 22.86 25.4)
+		(size 29.21 35.56)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -137,7 +226,7 @@
 		)
 		(uuid "d1e7b685-9c83-4c15-8db3-0beed5698ce7")
 		(property "Sheetname" "Devices"
-			(at 21.59 75.4884 0)
+			(at 22.86 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146,7 +235,7 @@
 			)
 		)
 		(property "Sheetfile" "Devices.kicad_sch"
-			(at 21.59 86.9446 0)
+			(at 22.86 61.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
