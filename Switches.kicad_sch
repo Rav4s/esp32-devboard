@@ -1508,6 +1508,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "C0603G104K5RACT250"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b20af7c-40ce-4cfc-8f3d-5942319dcb28")
 		)
@@ -1578,6 +1587,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "MCT0603PD1002DP500"
+			(at 38.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "72f5a8f1-3a5e-4e2b-9e13-458ec5dd3620")
 		)
@@ -1640,6 +1658,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 115.57 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MCT0603PD1002DP500 "
 			(at 115.57 29.21 0)
 			(effects
 				(font
@@ -1784,6 +1811,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "C0603G104K5RACT250"
+			(at 154.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fda320d6-9cf7-4efc-aa1a-15f676b569fd")
 		)
@@ -1844,6 +1880,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 107.95 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TL6120AF160QG"
 			(at 107.95 35.56 0)
 			(effects
 				(font
@@ -1920,6 +1965,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "TL6120AF160QG"
+			(at 147.32 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fd92206a-b82a-493a-bf03-e441adf4d239")
 		)
@@ -1980,6 +2034,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 30.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TL6120AF160QG"
 			(at 30.48 35.56 0)
 			(effects
 				(font
@@ -2050,6 +2113,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 77.47 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "MCT0603PD1002DP500"
 			(at 77.47 29.21 0)
 			(effects
 				(font
@@ -2194,6 +2266,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "MCT0603PD1002DP500"
+			(at 154.94 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "adef110f-d9ba-427a-ad10-1e4dd5fbd7ae")
 		)
@@ -2256,6 +2337,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 77.47 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0603G104K5RACT250"
 			(at 77.47 41.91 0)
 			(effects
 				(font
@@ -2398,6 +2488,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "TL6120AF160QG"
+			(at 69.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "18fc6f5f-367c-4399-8b3e-5dbe0b6f4ffc")
 		)
@@ -2460,6 +2559,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 115.57 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0603G104K5RACT250"
 			(at 115.57 41.91 0)
 			(effects
 				(font

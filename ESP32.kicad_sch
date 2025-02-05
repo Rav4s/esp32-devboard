@@ -2877,6 +2877,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "54101-S0803LF "
+			(at 74.93 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a763de02-58bb-4c7c-8732-f53f8482fe95")
 		)
@@ -3008,6 +3017,15 @@
 			)
 		)
 		(property "Description" "ESP32-C6-MINI-1 is a module that supports 2.4 GHz Wi-Fi 6 (802.11 ax), Bluetooth® 5 (LE), Zigbee and Thread (802.15.4)"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "ESP32-C6-MINI-1/U"
 			(at 104.14 90.17 0)
 			(effects
 				(font
@@ -3239,6 +3257,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "C0603G104K5RACT250"
+			(at 22.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2c4d9125-30d6-4e2e-8bc3-bdb6f7df4216")
 		)
@@ -3375,6 +3402,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "MLAST168BB5106MTNA01"
+			(at 34.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d56c5e22-8582-4e04-a0ae-0c035fe2874c")
 		)
@@ -3445,6 +3481,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "ERA-3APB332V "
+			(at 43.18 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ed25fc5e-490c-493e-b987-1ad1afa13222")
 		)
@@ -3507,6 +3552,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 74.93 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "54101-S0802LF"
 			(at 74.93 21.59 0)
 			(effects
 				(font
@@ -3709,6 +3763,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 45.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0603X105J4RAC7411"
 			(at 45.72 74.93 0)
 			(effects
 				(font
