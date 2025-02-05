@@ -2,8 +2,11 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "fccd6848-5891-422b-a13f-945db8e4aec9")
+	(uuid "4cad0c5e-f18f-491e-bc08-e58f634b782c")
 	(paper "A4")
+	(title_block
+		(title "Devices")
+	)
 	(lib_symbols)
 	(sheet
 		(at 20.32 39.37)

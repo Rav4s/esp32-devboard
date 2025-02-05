@@ -2,8 +2,11 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "c57f4183-548b-4389-aa92-7fdb77f1c8f8")
+	(uuid "80de9ce2-6a74-45dd-a424-9b7df73ad9f3")
 	(paper "A4")
+	(title_block
+		(title "ESP32")
+	)
 	(lib_symbols
 		(symbol "PCM_Espressif:ESP32-C6-MINI-1/U"
 			(exclude_from_sim no)
