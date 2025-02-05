@@ -10,6 +10,26 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 49.53 48.26) (xy 53.34 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05cf714f-a86e-4a20-9626-209f291b6b31")
+	)
+	(wire
+		(pts
+			(xy 49.53 26.67) (xy 53.34 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77be5072-1ca8-43f5-963d-04753ceba5e8")
+	)
+	(wire
+		(pts
 			(xy 49.53 43.18) (xy 53.34 43.18)
 		)
 		(stroke
@@ -17,6 +37,16 @@
 			(type default)
 		)
 		(uuid "96477702-d569-4245-abc9-21940538cdcd")
+	)
+	(wire
+		(pts
+			(xy 49.53 50.8) (xy 53.34 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd4e38fc-00c3-43ea-908c-521396a55465")
 	)
 	(wire
 		(pts
@@ -40,6 +70,30 @@
 		)
 		(uuid "1e49f35d-50d4-4fa9-85db-4ce718f723de")
 	)
+	(hierarchical_label "FLIP"
+		(shape output)
+		(at 53.34 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35595a07-c58d-4a0d-ad6f-68ad5f747953")
+	)
+	(hierarchical_label "FLOP"
+		(shape output)
+		(at 53.34 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4511b553-1163-416e-9f47-22e0a9e3dd5c")
+	)
 	(hierarchical_label "BOOT"
 		(shape output)
 		(at 53.34 45.72 0)
@@ -52,9 +106,21 @@
 		)
 		(uuid "509ecd10-3318-4664-9c74-2866462a2f14")
 	)
+	(hierarchical_label "LED_0"
+		(shape input)
+		(at 53.34 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54f0fc2a-e394-4ad6-8311-1c623e553ec2")
+	)
 	(sheet
 		(at 20.32 39.37)
-		(size 29.21 10.16)
+		(size 29.21 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -74,7 +140,7 @@
 			)
 		)
 		(property "Sheetfile" "Switches.kicad_sch"
-			(at 20.32 50.1146 0)
+			(at 20.32 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -102,48 +168,30 @@
 			)
 			(uuid "ca402450-0ab2-40b7-8315-e9673f95901b")
 		)
+		(pin "FLIP" output
+			(at 49.53 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3bf8545a-045a-4d5e-aeec-fd54e374b598")
+		)
+		(pin "FLOP" output
+			(at 49.53 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2edf3df9-c08b-442f-9709-d369271d4439")
+		)
 		(instances
 			(project "esp32-devboard"
 				(path "/0204cec0-d71e-48a7-8736-ccb0d3e9b02c/d1e7b685-9c83-4c15-8db3-0beed5698ce7"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 20.32 58.42)
-		(size 29.21 10.16)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3acee1b1-5513-45b9-b6ac-5e7a54fc4670")
-		(property "Sheetname" "Buzzer"
-			(at 20.32 57.7084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Buzzer.kicad_sch"
-			(at 20.32 69.1646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "esp32-devboard"
-				(path "/0204cec0-d71e-48a7-8736-ccb0d3e9b02c/d1e7b685-9c83-4c15-8db3-0beed5698ce7"
-					(page "5")
 				)
 			)
 		)
@@ -177,6 +225,16 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "LED_0" input
+			(at 49.53 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "996d4ebf-5382-45c8-9eaf-a2952752b214")
 		)
 		(instances
 			(project "esp32-devboard"
