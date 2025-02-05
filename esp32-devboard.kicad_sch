@@ -153,6 +153,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 35.56) (xy 59.69 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54877e46-e516-4d3f-a5c8-9b4b69ffc09b")
+	)
+	(wire
+		(pts
 			(xy 125.73 58.42) (xy 130.81 58.42)
 		)
 		(stroke
@@ -180,6 +190,16 @@
 			(type default)
 		)
 		(uuid "dd9345f5-51a4-45c9-8a9f-eb1c38a658e5")
+	)
+	(wire
+		(pts
+			(xy 52.07 31.75) (xy 59.69 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f708e9-d3cf-48aa-9b7a-8e8659a635c1")
 	)
 	(text_box "here be dragons"
 		(exclude_from_sim no)
@@ -315,6 +335,26 @@
 				(justify right)
 			)
 			(uuid "ed486fd3-fbc4-4e8e-88fc-3cf399509fbd")
+		)
+		(pin "CHIP_PU" input
+			(at 59.69 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8654e22f-6e1f-4fc0-b8e3-80504b90504e")
+		)
+		(pin "GPIO_9" input
+			(at 59.69 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "68de5a29-1c64-434c-9741-8f78409f5a12")
 		)
 		(instances
 			(project "esp32-devboard"
@@ -479,6 +519,26 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "BOOT" output
+			(at 52.07 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "053cb84e-4dfe-4ac4-9718-f23fcea67dde")
+		)
+		(pin "RST" output
+			(at 52.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "30fd634d-af5c-4724-947c-6dd9cc5d2c5c")
 		)
 		(instances
 			(project "esp32-devboard"

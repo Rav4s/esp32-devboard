@@ -8,6 +8,50 @@
 		(title "Devices")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 49.53 43.18) (xy 53.34 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96477702-d569-4245-abc9-21940538cdcd")
+	)
+	(wire
+		(pts
+			(xy 49.53 45.72) (xy 53.34 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd7a5891-af79-47e4-801d-643ea3f21f20")
+	)
+	(hierarchical_label "RST"
+		(shape output)
+		(at 53.34 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e49f35d-50d4-4fa9-85db-4ce718f723de")
+	)
+	(hierarchical_label "BOOT"
+		(shape output)
+		(at 53.34 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "509ecd10-3318-4664-9c74-2866462a2f14")
+	)
 	(sheet
 		(at 20.32 39.37)
 		(size 29.21 10.16)
@@ -20,7 +64,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0ce0db46-f08a-4ba7-a634-e898bb30c291")
-		(property "Sheetname" "Buttons"
+		(property "Sheetname" "Switches"
 			(at 20.32 38.6584 0)
 			(effects
 				(font
@@ -29,7 +73,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Buttons.kicad_sch"
+		(property "Sheetfile" "Switches.kicad_sch"
 			(at 20.32 50.1146 0)
 			(effects
 				(font
@@ -37,6 +81,26 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "RST" output
+			(at 49.53 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ffa1cbf9-820b-48bf-925f-244c3653800f")
+		)
+		(pin "BOOT" output
+			(at 49.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ca402450-0ab2-40b7-8315-e9673f95901b")
 		)
 		(instances
 			(project "esp32-devboard"
