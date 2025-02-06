@@ -1481,7 +1481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 39.0652 45.72 0)
 			(effects
 				(font
@@ -1560,7 +1560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 36.322 29.21 90)
 			(effects
 				(font
@@ -1639,7 +1639,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 113.792 29.21 90)
 			(effects
 				(font
@@ -1784,7 +1784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 155.9052 45.72 0)
 			(effects
 				(font
@@ -1861,7 +1861,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
 			(at 107.95 30.48 0)
 			(effects
 				(font
@@ -1888,7 +1888,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "TL6120AF160QG"
+		(property "P/N" "KMR231GLFS"
 			(at 107.95 35.56 0)
 			(effects
 				(font
@@ -1938,7 +1938,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
 			(at 147.32 30.48 0)
 			(effects
 				(font
@@ -1965,7 +1965,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "TL6120AF160QG"
+		(property "P/N" "KMR231GLFS"
 			(at 147.32 35.56 0)
 			(effects
 				(font
@@ -2015,7 +2015,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
 			(at 30.48 30.48 0)
 			(effects
 				(font
@@ -2042,7 +2042,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "TL6120AF160QG"
+		(property "P/N" "KMR231GLFS"
 			(at 30.48 35.56 0)
 			(effects
 				(font
@@ -2094,7 +2094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 75.692 29.21 90)
 			(effects
 				(font
@@ -2239,7 +2239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 153.162 29.21 90)
 			(effects
 				(font
@@ -2318,7 +2318,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 78.4352 45.72 0)
 			(effects
 				(font
@@ -2461,7 +2461,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
 			(at 69.85 30.48 0)
 			(effects
 				(font
@@ -2488,7 +2488,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "TL6120AF160QG"
+		(property "P/N" "KMR231GLFS"
 			(at 69.85 35.56 0)
 			(effects
 				(font
@@ -2540,7 +2540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 116.5352 45.72 0)
 			(effects
 				(font
