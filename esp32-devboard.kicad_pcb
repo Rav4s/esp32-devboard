@@ -639,7 +639,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "1b6c8068-067f-474c-ba5a-769a4012d6b8")
-		(at 100 68 -90)
+		(at 100.25 68 -90)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP3"
@@ -1824,7 +1824,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "389940b3-54a5-45bc-9276-7fee1cb8963b")
-		(at 96.915 64.5)
+		(at 97 64.5)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D1"
@@ -2406,7 +2406,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "486c2cc9-136b-4f64-8c2a-f94eec6c1d56")
-		(at 96 67)
+		(at 96.225 67)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
@@ -8244,7 +8244,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "dd98eb8f-062d-48e5-8fa0-3628e489a757")
-		(at 96 69)
+		(at 96.225 69)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
@@ -10637,6 +10637,104 @@
 		)
 	)
 	(zone
+		(net 29)
+		(net_name "+3.3V")
+		(layer "F.Cu")
+		(uuid "6a532b8d-9379-429f-8947-2ac044e66489")
+		(hatch edge 0.5)
+		(priority 1)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 98.25 82.75) (xy 96.75 82.75) (xy 96 82) (xy 94.75 82) (xy 94.75 80.25) (xy 95.5 79.5) (xy 95.5 78.25)
+				(xy 95.5 78.25) (xy 98.25 78.25)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 98.25 79) (xy 98.25 82.626) (xy 98.230315 82.693039) (xy 98.177511 82.738794) (xy 98.126 82.75)
+				(xy 96.801362 82.75) (xy 96.734323 82.730315) (xy 96.713681 82.713681) (xy 96 82) (xy 94.874 82)
+				(xy 94.806961 81.980315) (xy 94.761206 81.927511) (xy 94.75 81.876) (xy 94.75 80.301362) (xy 94.769685 80.234323)
+				(xy 94.786319 80.213681) (xy 95.5 79.5) (xy 95.5 78.25) (xy 98.25 78.25)
+			)
+		)
+	)
+	(zone
+		(net 38)
+		(net_name "/Power/+5V")
+		(layer "F.Cu")
+		(uuid "6ecf44b5-a12e-4179-a648-6cb6dec6638d")
+		(hatch edge 0.5)
+		(priority 2)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 96.25 72.75) (xy 94.25 72.75) (xy 94.25 70.25) (xy 93.5 69.5) (xy 92.25 69.5) (xy 92.25 66.5)
+				(xy 93.75 66.5) (xy 94.5 65.75) (xy 94.5 63.25) (xy 96.25 63.25)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 96.193039 63.269685) (xy 96.238794 63.322489) (xy 96.25 63.374) (xy 96.25 72.626) (xy 96.230315 72.693039)
+				(xy 96.177511 72.738794) (xy 96.126 72.75) (xy 94.374 72.75) (xy 94.306961 72.730315) (xy 94.261206 72.677511)
+				(xy 94.25 72.626) (xy 94.25 70.25) (xy 93.5 69.5) (xy 92.374 69.5) (xy 92.306961 69.480315) (xy 92.261206 69.427511)
+				(xy 92.25 69.376) (xy 92.25 66.624) (xy 92.269685 66.556961) (xy 92.322489 66.511206) (xy 92.374 66.5)
+				(xy 93.75 66.5) (xy 94.5 65.75) (xy 94.5 63.374) (xy 94.519685 63.306961) (xy 94.572489 63.261206)
+				(xy 94.624 63.25) (xy 96.126 63.25)
+			)
+		)
+	)
+	(zone
+		(net 29)
+		(net_name "+3.3V")
+		(layer "F.Cu")
+		(uuid "b64801ed-5dbc-41ef-89a9-9c4d017390a9")
+		(hatch edge 0.5)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 95.5 79) (xy 95.5 76.5) (xy 95.5 76.5) (xy 96.5 75.5) (xy 96.5 70.25) (xy 98.5 70.25) (xy 98.5 75.5)
+				(xy 99.5 76.5) (xy 99.5 76.5) (xy 99.5 79)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 98.443039 70.269685) (xy 98.488794 70.322489) (xy 98.5 70.374) (xy 98.5 75.5) (xy 99.463681 76.463681)
+				(xy 99.497166 76.525004) (xy 99.5 76.551362) (xy 99.5 78.876) (xy 99.480315 78.943039) (xy 99.427511 78.988794)
+				(xy 99.376 79) (xy 98.25 79) (xy 98.25 78.25) (xy 95.5 78.25) (xy 95.5 76.551362) (xy 95.519685 76.484323)
+				(xy 95.536319 76.463681) (xy 96.5 75.5) (xy 96.5 70.374) (xy 96.519685 70.306961) (xy 96.572489 70.261206)
+				(xy 96.624 70.25) (xy 98.376 70.25)
+			)
+		)
+	)
+	(zone
 		(net 0)
 		(net_name "")
 		(layers "F.Cu" "In1.Cu" "In2.Cu" "B.Cu")
@@ -10668,15 +10766,5 @@
 	(group ""
 		(uuid "58f3f623-b75d-48d6-a75a-6f9ac6097e1e")
 		(members "9e491c97-c408-47aa-a825-656574b5255b" "efe0206d-e05d-4263-8e52-4d6ee51e22c0")
-	)
-	(group ""
-		(uuid "0da5e69e-9956-40cc-a6b5-50d709bd4b9b")
-		(members "1b6c8068-067f-474c-ba5a-769a4012d6b8" "262f769d-a23a-4fdd-95f2-37f04a277f88"
-			"486c2cc9-136b-4f64-8c2a-f94eec6c1d56" "4a1526ff-0a48-487e-8273-066df841240d"
-			"54078b00-5d86-4ed3-92e5-de67855fb4d0" "5a667fe3-618f-45d0-b3d5-f59ddde55a9a"
-			"7ea36561-44c1-4dda-9039-b84add404954" "9e30236c-4aae-4ac8-98ee-09181bec6437"
-			"a3e8463d-94b6-462c-b727-42dbfcba4cf4" "bd917cb7-f533-4c32-a060-e98790d32795"
-			"d6df7a0d-5dc7-41a9-8d43-eab22e0207d0" "dd98eb8f-062d-48e5-8fa0-3628e489a757"
-		)
 	)
 )
