@@ -1323,7 +1323,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0603G104K5RACT250"
+		(property "P/N" "UMK107B7104KAHT "
 			(at 106.68 38.1 0)
 			(effects
 				(font
@@ -1468,7 +1468,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0603G104K5RACT250"
+		(property "P/N" "UMK107B7104KAHT "
 			(at 83.82 38.1 0)
 			(effects
 				(font
